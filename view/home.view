@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="mensagem-sucesso">
-        <p>Mensagem de Sucesso</p>
+        <p>{{success}}</p>
     </div>
     <h1>Scuba<span>PHP</span></h1>
 
@@ -20,7 +20,7 @@
         </div>
         <div class="dados">
             <div class="info-dados">
-                <span class="mensagem-erro">Mensagem de Erro</span>
+                <span class="mensagem-erro">{{error}}</span>
                 <p>Nome do Usuário:{{field_name}}</p>
                 <p>Email do Usuário:{{field_email}}</p>
             </div>

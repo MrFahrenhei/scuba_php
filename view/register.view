@@ -13,7 +13,7 @@
     <form action="/?page=register&from=register" method="POST">
         <p>Cadastre Um Novo Usuário</p>
         <div class="mensagem-sucesso">
-            <p>Mensagem de Sucesso</p>
+            <p>{{success}}</p>
         </div>
         <label for="nome">Nome</label>
         <input type="text" name="person[name]" value="{{name}}" required>

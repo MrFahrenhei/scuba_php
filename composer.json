@@ -8,5 +8,12 @@
             "email": "david.meth@live.com"
         }
     ],
-    "require": {}
+    "require": {
+        "phpmailer/phpmailer": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "ScubaPHP\\": "src/"
+        }
+    }
 }
